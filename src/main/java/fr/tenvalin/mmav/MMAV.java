@@ -1,5 +1,6 @@
 package fr.tenvalin.mmav;
 
+import fr.tenvalin.mmav.init.ModBlocks;
 import fr.tenvalin.mmav.init.ModItems;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +20,7 @@ public class MMAV {
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
 
     }
 

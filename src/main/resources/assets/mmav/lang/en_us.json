@@ -1,5 +1,6 @@
 {
   "item.mmav.epee_skulk": "Skulk Sword",
-  "item.mmav.baton_magique": "Magic Stick"
-
+  "item.mmav.baton_magique": "Magic Stick",
+  "block.mmav.skulk_ore": "Skulk Ore",
+  "block.mmav.silicon_block": "Silicon Ore"
 }
