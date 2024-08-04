@@ -24,6 +24,15 @@ public class ModItems {
 
 
         public static final RegistryObject<Item> SKULK_SWORD = ITEMS.register("skulk_sword",() -> new SwordItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> SKULK_PICKAXE = ITEMS.register("skulk_pickaxe",() -> new SwordItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+        public static final RegistryObject<Item> SKULK_AXE = ITEMS.register("skulk_axe",() -> new SwordItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+        public static final RegistryObject<Item> SKULK_HOE = ITEMS.register("skulk_hoe",() -> new SwordItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+        public static final RegistryObject<Item> SKULK_SHOVEL = ITEMS.register("skulk_shovel",() -> new SwordItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+
+
+
+
+
         public static final RegistryObject<Item> SILICON_SWORD = ITEMS.register("silicon_sword",() -> new SwordItem(CustomItemTiers.SILICON,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
 
 
