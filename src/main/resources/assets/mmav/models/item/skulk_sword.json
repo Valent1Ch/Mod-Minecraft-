@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mmav:item/epee_skulk"
+    "layer0": "mmav:item/skulk_sword"
   }
 }
