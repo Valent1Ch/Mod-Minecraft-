@@ -5,6 +5,7 @@ package fr.tenvalin.mmav.init;
 import fr.tenvalin.mmav.MMAV;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -21,7 +22,7 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> SKULK_ORE = createBlock("skulk_ore",() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(3).func_235861_h_() ));
-    public static final RegistryObject<Block> SILICON_BLOCK = createBlock("silicon_block",() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(2f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(1).func_235861_h_().slipperiness(1f) ));
+    public static final RegistryObject<Block> SILICON_BLOCK = createBlock("silicon_block",() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(2f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(1).func_235861_h_().slipperiness(1f).sound(SoundType.SLIME) ));
 
 
     public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier) {
