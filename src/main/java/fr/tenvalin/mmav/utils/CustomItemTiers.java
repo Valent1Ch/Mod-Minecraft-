@@ -6,7 +6,8 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
 public enum CustomItemTiers implements IItemTier {
-    SKULK(4,420,6f,10f, 20, new LazyValue<>(() ->{return Ingredient.fromItems(ModItems.SKULK_IRON.get());}));
+    SKULK(4,420,6f,10f, 20, new LazyValue<>(() ->{return Ingredient.fromItems(ModItems.SKULK_IRON.get());})),
+    SILICON(2,420 ,420 , 4f, 20, new LazyValue<>(() ->{return Ingredient.fromItems(ModItems.SILICON_INGOT.get());}));
 
 
     private final int harvestLevel;
