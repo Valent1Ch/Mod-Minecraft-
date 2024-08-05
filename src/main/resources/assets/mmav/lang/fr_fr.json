@@ -1,8 +1,16 @@
 {
   "item.mmav.silicon_sword": "Epee en Silicon",
-  "item.mmav.skulk_sword": "Epée Skulk",
+
   "item.mmav.baton_magique": "Baton Magique",
+
+  "block.mmav.silicon_block": "Minerai de silicone",
+
   "item.mmav.skulk_iron": "Lingot de Skulk",
   "block.mmav.skulk_ore": "Minerai de Skulk",
-  "block.mmav.silicon_block": "Minerai de silicone"
+
+  "item.mmav.skulk_sword": "Epée Skulk",
+  "item.mmav.skulk_pickaxe": "Pioche en Skulk",
+  "item.mmav.skulk_axe": "Hache en Skulk",
+  "item.mmav.skulk_shovel": "Pelle en Skulk",
+  "item.mmav.skulk_hoe": "Hoe en Skulk"
 }

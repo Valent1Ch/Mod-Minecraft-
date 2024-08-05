@@ -1,6 +1,12 @@
 {
   "item.mmav.silicon_sword": "Silicon Sword",
+
   "item.mmav.skulk_sword": "Skulk Sword",
+  "item.mmav.skulk_pickaxe": "Skulk Pickaxe",
+  "item.mmav.skulk_axe": "Skulk Axe",
+  "item.mmav.skulk_shovel": "Skulk Shovel",
+  "item.mmav.skulk_hoe": "Skulk Hoe",
+
   "item.mmav.baton_magique": "Magic Stick",
   "item.mmav.skulk_iron": "Skulk Iron",
   "block.mmav.skulk_ore": "Skulk Ore",
