@@ -10,5 +10,12 @@
   "item.mmav.baton_magique": "Magic Stick",
   "item.mmav.skulk_iron": "Skulk Iron",
   "block.mmav.skulk_ore": "Skulk Ore",
-  "block.mmav.silicon_block": "Silicon Ore"
+  "block.mmav.silicon_block": "Silicon Ore",
+
+
+  "item.mmav.skulk_boots": "Skulk Boots",
+  "item.mmav.skulk_leggings": "Skulk Leggings",
+  "item.mmav.skulk_chestplate": "Skulk Chestplate",
+  "item.mmav.skulk_helmet": "Skulk Helmet"
+
 }

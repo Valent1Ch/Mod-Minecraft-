@@ -1,7 +1,9 @@
 package fr.tenvalin.mmav.init;
 
 import fr.tenvalin.mmav.MMAV;
+import fr.tenvalin.mmav.utils.CustomArmorMaterials;
 import fr.tenvalin.mmav.utils.CustomItemTiers;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,6 +30,15 @@ public class ModItems {
         public static final RegistryObject<Item> SKULK_AXE = ITEMS.register("skulk_axe",() -> new AxeItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
         public static final RegistryObject<Item> SKULK_HOE = ITEMS.register("skulk_hoe",() -> new HoeItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
         public static final RegistryObject<Item> SKULK_SHOVEL = ITEMS.register("skulk_shovel",() -> new ShovelItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+
+
+        public static final RegistryObject<Item> SKULK_HELMET = ITEMS.register("skulk_helmet", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> SKULK_CHESTPLATE = ITEMS.register("skulk_chestplate", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> SKULK_LEGGINGS = ITEMS.register("skulk_leggings", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> SKULK_BOOTS = ITEMS.register("skulk_boots", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
+
+
+
 
 
 

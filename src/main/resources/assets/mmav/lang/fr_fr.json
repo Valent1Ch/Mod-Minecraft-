@@ -8,9 +8,18 @@
   "item.mmav.skulk_iron": "Lingot de Skulk",
   "block.mmav.skulk_ore": "Minerai de Skulk",
 
-  "item.mmav.skulk_sword": "Epée Skulk",
+  "item.mmav.skulk_sword": "Epée en Skulk",
   "item.mmav.skulk_pickaxe": "Pioche en Skulk",
   "item.mmav.skulk_axe": "Hache en Skulk",
   "item.mmav.skulk_shovel": "Pelle en Skulk",
-  "item.mmav.skulk_hoe": "Hoe en Skulk"
+  "item.mmav.skulk_hoe": "Hoe en Skulk",
+
+
+  "item.mmav.skulk_boots": "Bottes en Skulk",
+  "item.mmav.skulk_leggings": "Pantalon en Skulk",
+  "item.mmav.skulk_chestplate": "Plastron en Skulk",
+  "item.mmav.skulk_helmet": "Casque en Skulk"
+
+
+
 }
