@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "mmav:silicon_ingot"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mmav:silicon_sword"
+  }
+}

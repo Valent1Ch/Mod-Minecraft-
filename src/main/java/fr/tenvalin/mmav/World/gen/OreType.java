@@ -6,7 +6,8 @@ import net.minecraftforge.common.util.Lazy;
 
 public enum OreType {
 
-    SKULK(Lazy.of(ModBlocks.SKULK_ORE),4,25,50);
+    SKULK(Lazy.of(ModBlocks.SKULK_ORE),4,1,12),SILICON(Lazy.of(ModBlocks.SILICON_BLOCK),8,40,110);;
+
 
     private final Lazy<Block> block;
     private final int maxVeinSize;

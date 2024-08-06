@@ -3,7 +3,8 @@
 
   "item.mmav.baton_magique": "Baton Magique",
 
-  "block.mmav.silicon_block": "Minerai de silicone",
+  "block.mmav.silicon_block": "Minerai de silicon",
+  "item.mmav.silicon_ingot": "Lingot de Silicon",
 
   "item.mmav.skulk_iron": "Lingot de Skulk",
   "block.mmav.skulk_ore": "Minerai de Skulk",

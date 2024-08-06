@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " B ",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "mmav:skulk_iron"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mmav:skulk_shovel"
+  }
+}
