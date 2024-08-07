@@ -24,6 +24,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SKULK_ORE = createBlock("skulk_ore",() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(3).func_235861_h_() ));
     public static final RegistryObject<Block> SILICON_BLOCK = createBlock("silicon_block",() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(2f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(1).func_235861_h_().slipperiness(1f).sound(SoundType.SLIME) ));
 
+    public static final RegistryObject<Block> FIRE_DIAMOND_ORE = createBlock("fire_diamond_ore",() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3f, 15f).harvestTool(ToolType.PICKAXE).harvestLevel(3).func_235861_h_() ));
+
+
 
     public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> supplier) {
 

@@ -20,9 +20,13 @@ public class ModItems {
 
         public static final RegistryObject<Item> SKULK_IRON = ITEMS.register("skulk_iron",() -> new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MATERIALS)));
         public static final RegistryObject<Item> SILICON_INGOT = ITEMS.register("silicon_ingot",() -> new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MATERIALS)));
+        public static final RegistryObject<Item> FIRE_DIAMOND = ITEMS.register("fire_diamond",() -> new Item(new Item.Properties().maxStackSize(64).group(ItemGroup.MATERIALS)));
 
-
-
+        public static final RegistryObject<Item> FIRE_SWORD = ITEMS.register("fire_sword",() -> new SwordItem(CustomItemTiers.FIRE_DIAMOND,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> FIRE_PICKAXE = ITEMS.register("fire_pickaxe",() -> new PickaxeItem(CustomItemTiers.FIRE_DIAMOND,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+        public static final RegistryObject<Item> FIRE_AXE = ITEMS.register("fire_axe",() -> new AxeItem(CustomItemTiers.FIRE_DIAMOND,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+        public static final RegistryObject<Item> FIRE_HOE = ITEMS.register("fire_hoe",() -> new HoeItem(CustomItemTiers.FIRE_DIAMOND,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+        public static final RegistryObject<Item> FIRE_SHOVEL = ITEMS.register("fire_shovel",() -> new ShovelItem(CustomItemTiers.FIRE_DIAMOND,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
 
 
         public static final RegistryObject<Item> SKULK_SWORD = ITEMS.register("skulk_sword",() -> new SwordItem(CustomItemTiers.SKULK,0, -2.4f,new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));

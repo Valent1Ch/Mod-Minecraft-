@@ -17,6 +17,14 @@
   "item.mmav.skulk_boots": "Skulk Boots",
   "item.mmav.skulk_leggings": "Skulk Leggings",
   "item.mmav.skulk_chestplate": "Skulk Chestplate",
-  "item.mmav.skulk_helmet": "Skulk Helmet"
+  "item.mmav.skulk_helmet": "Skulk Helmet",
 
+  "block.mmav.fire_diamond_ore": "Fire Diamond Ore",
+  "item.mmav.fire_diamond": "Fire Diamond",
+
+  "item.mmav.fire_sword": "Fire Sword",
+  "item.mmav.fire_pickaxe": "Fire Pickaxe",
+  "item.mmav.fire_axe": "Fire Axe",
+  "item.mmav.fire_shovel": "Fire Shovel",
+  "item.mmav.fire_hoe": "Fire Hoe"
 }

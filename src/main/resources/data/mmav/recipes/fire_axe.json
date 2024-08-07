@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " SS",
+    " BS",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "mmav:fire_diamond"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mmav:fire_axe"
+  }
+}

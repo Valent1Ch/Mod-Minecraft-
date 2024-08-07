@@ -19,8 +19,16 @@
   "item.mmav.skulk_boots": "Bottes en Skulk",
   "item.mmav.skulk_leggings": "Pantalon en Skulk",
   "item.mmav.skulk_chestplate": "Plastron en Skulk",
-  "item.mmav.skulk_helmet": "Casque en Skulk"
+  "item.mmav.skulk_helmet": "Casque en Skulk",
 
+  "block.mmav.fire_diamond_ore": "Minerai de Diamant enflammé",
+  "item.mmav.fire_diamond": "Diamant enflammé",
+
+  "item.mmav.fire_sword": "Epée enflammé",
+  "item.mmav.fire_pickaxe": "Pioche enflammé",
+  "item.mmav.fire_axe": "Hache enflammé",
+  "item.mmav.fire_shovel": "Pelle enflammé",
+  "item.mmav.fire_hoe": "Hoe enflammé"
 
 
 }
