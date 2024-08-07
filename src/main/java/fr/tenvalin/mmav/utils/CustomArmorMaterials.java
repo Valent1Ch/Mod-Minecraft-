@@ -2,10 +2,8 @@ package fr.tenvalin.mmav.utils;
 
 import fr.tenvalin.mmav.MMAV;
 import fr.tenvalin.mmav.init.ModItems;
-import net.minecraft.entity.Entity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 import net.minecraft.util.SoundEvent;
@@ -13,14 +11,12 @@ import net.minecraft.util.SoundEvents;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-
 import java.util.function.Supplier;
 
 public enum CustomArmorMaterials implements IArmorMaterial {
 
-   SKULK_ARMOR(MMAV.MODID + ":skulk", 20, new int[]{2, 5, 7, 3}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f, 0.0f,() -> {
-        return Ingredient.fromItems(ModItems.SKULK_IRON.get());
-    });
+    SKULK_ARMOR(MMAV.MODID + ":skulk", 20, new int[]{2, 5, 7, 3}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f, 0.0f, () -> Ingredient.fromItems(ModItems.SKULK_IRON.get())),
+    FIRE_DIAMOND_ARMOR(MMAV.MODID + ":fire_diamond", 25, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.1f, () -> Ingredient.fromItems(ModItems.FIRE_DIAMOND.get()));
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};
     private final String name;
@@ -42,7 +38,6 @@ public enum CustomArmorMaterials implements IArmorMaterial {
         this.knockbackResistance = knockbackResistance;
         this.repairMaterial = new LazyValue<>(repairMaterial);
     }
-
 
     @Override
     public int getDurability(EquipmentSlotType equipmentSlotType) {
@@ -82,11 +77,11 @@ public enum CustomArmorMaterials implements IArmorMaterial {
 
     @Override
     public float func_230304_f_() {
-       return 0;
+        return this.knockbackResistance;
     }
 
-
-    public float getKnockbackResistance() {
-        return this.knockbackResistance;
+    public String getLayer() {
+        // Retourne le nom de la texture de la couche d'armure
+        return this.name;
     }
 }
