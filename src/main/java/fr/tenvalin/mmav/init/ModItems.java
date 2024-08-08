@@ -40,10 +40,10 @@ public class ModItems {
         public static final RegistryObject<Item> SKULK_LEGGINGS = ITEMS.register("skulk_leggings", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
         public static final RegistryObject<Item> SKULK_BOOTS = ITEMS.register("skulk_boots", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 
-        public static final RegistryObject<Item> FIRE_DIAMOND_HELMET = ITEMS.register("fire_diamond_helmet", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
-        public static final RegistryObject<Item> FIRE_DIAMOND_CHESTPLATE = ITEMS.register("fire_diamond_chestplate", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
-        public static final RegistryObject<Item> FIRE_DIAMOND_LEGGINGS = ITEMS.register("fire_diamond_leggings", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
-        public static final RegistryObject<Item> FIRE_DIAMOND_BOOTS = ITEMS.register("fire_diamond_boots", () -> new ArmorItem(CustomArmorMaterials.SKULK_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> FIRE_DIAMOND_HELMET = ITEMS.register("fire_diamond_helmet", () -> new ArmorItem(CustomArmorMaterials.FIRE_DIAMOND_ARMOR, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> FIRE_DIAMOND_CHESTPLATE = ITEMS.register("fire_diamond_chestplate", () -> new ArmorItem(CustomArmorMaterials.FIRE_DIAMOND_ARMOR, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> FIRE_DIAMOND_LEGGINGS = ITEMS.register("fire_diamond_leggings", () -> new ArmorItem(CustomArmorMaterials.FIRE_DIAMOND_ARMOR, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+        public static final RegistryObject<Item> FIRE_DIAMOND_BOOTS = ITEMS.register("fire_diamond_boots", () -> new ArmorItem(CustomArmorMaterials.FIRE_DIAMOND_ARMOR, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 
 
 }
